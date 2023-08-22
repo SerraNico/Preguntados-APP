@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>gym</title>
+    <link rel="stylesheet" href="css/info.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="presentation">
+        <h1 class="h1">¡Bienvenidos a preguntados version Geografia!</h1>
+        <p class="p">
+          Este juego tiene 10 preguntas y consiste en una serie de preguntas de
+          lo mas basico a lo mas dificil.<br />
+          tendras un tiempo de hasta 80 segundos para hacerlo y tienes 4 vidas
+        </p>
+        <div class="confirmation">
+          <b>¿Listo para comenzar?</b>
+          <div class="button">
+            <a href="preguntadosGeo.html" class="yes"
+              ><button class="button-yes">Si,comenzar</button>
+            </a>
+            <a href="index.html" class="no"
+              ><button class="button-no">No,quiero volver</button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/89de378c9e.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/gym.js"></script>
+    <script>
+      let buttonYes = document.querySelector(".yes");
+      let buttonNo = document.querySelector(".no");
+
+      let audioIndex = () => {
+        let audioI = document.createElement("audio");
+        let audioii = document.createElement("source");
+        audioI.id = "Sound-Correct-Option";
+        audioii.src = "/audio/index.wav";
+        audioI.appendChild(audioii);
+        if (audioI.paused) {
+          audioI.currentTime = 0;
+        }
+        audioI.play();
+      };
+      buttonYes.addEventListener("mouseover", audioIndex);
+      buttonNo.addEventListener("mouseover", audioIndex);
+    </script>
+  </body>
+</html>

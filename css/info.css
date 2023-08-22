@@ -1,0 +1,158 @@
+@media only screen and (min-width:300px) {
+    body{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        user-select: none;
+    }
+    .container{
+        display: flex;
+        flex-grow: 1;
+        flex-wrap: wrap;
+        flex-direction: column;
+    background-color: #000;
+        justify-content: center;
+        height: 100vh;
+        width: 100%;
+    }
+    .presentation{
+        background-color: #222;
+        width: 80%;
+        align-self: center;
+        padding: 10px 20px;
+        height: 60%;
+    }
+    .h1{
+        font-size: 30px;
+        text-align: center;
+        color: aqua;
+    }
+    .p{
+        font-size: 15px;
+        color: #eeb;
+        text-align: center;
+    }
+    
+    .confirmation{
+        font-size: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        background-color: #faed;
+        text-align: center;
+        width: 95%;
+        height: 40%;
+        margin: auto;
+        border: none;
+    }
+    .button{
+        margin: auto;
+        display: flex;
+       
+    }
+    button{
+        font-size: 18px;
+        color: aquamarine;
+        background-color: #222;
+        padding: 10px 30px;
+        transition: .3s;
+        border: none;
+    }
+    .button-no{
+    margin: 5px;
+    padding: 10px;
+    }
+    .button-yes{
+     margin: 5px;
+     padding: 10px;
+    }
+    button:hover{
+        transition: .3s;
+        transform: scale(1.1);
+        background-color: #343333;
+    }
+    a{
+        margin: auto;
+        height: 20px;
+    }   
+}
+@media only screen and (min-width:1455px){
+ 
+
+ body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    user-select: none;
+}
+.container{
+    display: flex;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    flex-direction: column;
+background-color: #000;
+    justify-content: center;
+    height: 100vh;
+}
+.presentation{
+    background-color: #222;
+    width: 50%;
+    align-self: center;
+    padding: 10px 20px;
+    height: 600px;
+}
+.h1{
+    font-size: 50px;
+    text-align: center;
+    color: aqua;
+}
+.p{
+    font-size: 20px;
+    color: #eeb;
+    text-align: center;
+}
+.confirmation{
+    font-size: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: #faed;
+    text-align: center;
+    width: 50%;
+    height: 250px;
+    margin: auto;
+    padding:10px 10px;
+}
+.button{
+    margin: auto;
+    display: flex;
+    width: 400px;
+    height: 200px;
+   
+}
+button{
+    font-size: 18px;
+    color: aquamarine;
+    background-color: #222;
+    padding: 20px 10px;
+    transition: .3s;
+    border: none;
+}
+.button-no{
+margin: auto;
+}
+.button-yes{
+ margin: auto;
+}
+button:hover{
+    transition: .3s;
+    transform: scale(1.1);
+    background-color: #343333;
+}
+a{
+    margin: auto;
+    height: 20px;
+}
+}

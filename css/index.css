@@ -1,0 +1,597 @@
+@media only screen and (min-width: 300px) {
+  body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(0, 0, 156);
+    font-family: sans-serif;
+    user-select: none;
+  }
+  a {
+    width: 200px;
+    margin: auto;
+  }
+  .container {
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 85%;
+    margin: auto;
+    text-align: center;
+    height: 100%;
+    outline: solid aqua 5px;
+    justify-content: space-between;
+  }
+  .gym {
+    transition: 0.3s;
+    outline: solid 2px #650808;
+    width: 200px;
+    height: 220px;
+    margin: auto;
+  }
+  .gym img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .b {
+    display: none;
+    user-select: none;
+    pointer-events: none;
+    position: fixed;
+    z-index: 200;
+    color: #fffcfc;
+    font-size: 40px;
+  }
+  .b2 {
+    display: none;
+    user-select: none;
+    pointer-events: none;
+    position: fixed;
+    z-index: 200;
+    color: #fffcfc;
+    font-size: 40px;
+  }
+  .b3 {
+    display: none;
+    user-select: none;
+    pointer-events: none;
+    position: fixed;
+    z-index: 200;
+    color: #fffcfc;
+    font-size: 40px;
+  }
+  .b4 {
+    display: none;
+    user-select: none;
+    pointer-events: none;
+    position: fixed;
+    z-index: 200;
+    color: #fffcfc;
+    font-size: 40px;
+  }
+  .b5 {
+    display: none;
+    user-select: none;
+    pointer-events: none;
+    position: fixed;
+    z-index: 200;
+    color: #fffcfc;
+    font-size: 40px;
+  }
+  .b6 {
+    display: none;
+    user-select: none;
+    pointer-events: none;
+    position: fixed;
+    z-index: 200;
+    color: #fffcfc;
+    font-size: 40px;
+  }
+  .b7 {
+    display: none;
+    user-select: none;
+    pointer-events: none;
+    position: fixed;
+    z-index: 200;
+    color: #fffcfc;
+    font-size: 35px;
+  }
+  .b8 {
+    display: none;
+    user-select: none;
+    pointer-events: none;
+    position: fixed;
+    z-index: 200;
+    color: #fffcfc;
+    font-size: 40px;
+  }
+  .b9 {
+    display: none;
+    user-select: none;
+    pointer-events: none;
+    position: fixed;
+    z-index: 200;
+    color: #fffcfc;
+    font-size: 40px;
+  }
+  .Dbz {
+    transition: 0.3s;
+    outline: solid 7px #650808;
+    width: 200px;
+    height: 220px;
+    font-size: 30px;
+  }
+  .Dbz img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .futbol {
+    transition: 0.3s;
+    outline: solid 7px #650808;
+    width: 300px;
+    height: 220px;
+    margin: auto;
+    font-size: 30px;
+    background-color: red;
+  }
+  h1 {
+    color: #fff;
+  }
+  .dbz {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: rgb(162, 19, 19);
+    align-items: center;
+    height: 100%;
+    padding: 20px 0;
+    width: 100%;
+  }
+
+  h2,
+  h3,
+  h4 {
+    color: #fff;
+    padding-left: 20px;
+    font-size: 30px;
+  }
+  .Deporte-gym {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: rgb(95, 15, 15);
+    align-items: center;
+    height: 100%;
+    width: 100%;
+  }
+  .Deportes {
+    transition: 0.3s;
+    outline: solid 2px #650808;
+    width: 200px;
+    height: 220px;
+    padding: 20px 0;
+    margin: auto;
+  }
+  .Deportes img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .otros {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: rgb(66, 6, 6);
+    align-items: center;
+    height: 100%;
+  }
+  .Otros {
+    transition: 0.3s;
+    outline: solid 2px #650808;
+    width: 200px;
+    height: 220px;
+    margin: auto;
+  }
+  .Otros img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+@media only screen and (min-width: 500px) and (max-width: 1080px) {
+  body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(0, 0, 156);
+    font-family: sans-serif;
+    user-select: none;
+  }
+  a {
+    width: 300px;
+    margin: auto;
+  }
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(0, 0, 0);
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    height: 100%;
+    outline: solid aqua 5px;
+    justify-content: space-between;
+  }
+  .gym {
+    transition: 0.3s;
+    outline: solid 2px #650808;
+    width: 200px;
+    height: 220px;
+    margin: auto;
+  }
+  .gym img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .b {
+    display: none;
+    user-select: none;
+    pointer-events: none;
+    position: fixed;
+    z-index: 200;
+    color: #fffcfc;
+    font-size: 40px;
+  }
+  .b2 {
+    display: none;
+    user-select: none;
+    pointer-events: none;
+    position: fixed;
+    z-index: 200;
+    color: #fffcfc;
+    font-size: 40px;
+  }
+  .b3 {
+    display: none;
+    user-select: none;
+    pointer-events: none;
+    position: fixed;
+    z-index: 200;
+    color: #fffcfc;
+    font-size: 40px;
+  }
+  .b4 {
+    display: none;
+    user-select: none;
+    pointer-events: none;
+    position: fixed;
+    z-index: 200;
+    color: #fffcfc;
+    font-size: 40px;
+  }
+  .b5 {
+    display: none;
+    user-select: none;
+    pointer-events: none;
+    position: fixed;
+    z-index: 200;
+    color: #fffcfc;
+    font-size: 40px;
+  }
+  .b6 {
+    display: none;
+    user-select: none;
+    pointer-events: none;
+    position: fixed;
+    z-index: 200;
+    color: #fffcfc;
+    font-size: 40px;
+  }
+  .b7 {
+    display: none;
+    user-select: none;
+    pointer-events: none;
+    position: fixed;
+    z-index: 200;
+    color: #fffcfc;
+    font-size: 35px;
+  }
+  .b8 {
+    display: none;
+    user-select: none;
+    pointer-events: none;
+    position: fixed;
+    z-index: 200;
+    color: #fffcfc;
+    font-size: 40px;
+  }
+  .b9 {
+    display: none;
+    user-select: none;
+    pointer-events: none;
+    position: fixed;
+    z-index: 200;
+    color: #fffcfc;
+    font-size: 40px;
+  }
+  .Dbz {
+    transition: 0.3s;
+    outline: solid 7px #650808;
+    width: 300px;
+    height: 220px;
+    font-size: 30px;
+  }
+  .Dbz img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .futbol {
+    transition: 0.3s;
+    outline: solid 7px #650808;
+    width: 300px;
+    height: 220px;
+    margin: auto;
+    font-size: 30px;
+    background-color: red;
+  }
+  h1 {
+    color: #fff;
+  }
+  .dbz {
+    display: flex;
+    background-color: rgb(162, 19, 19);
+    align-items: center;
+    height: 100%;
+    width: 100%;
+  }
+
+  h2,
+  h3,
+  h4 {
+    color: #fff;
+    padding-left: 20px;
+    font-size: 30px;
+  }
+  .Deporte-gym {
+    display: flex;
+    background-color: rgb(95, 15, 15);
+    align-items: center;
+    height: 100%;
+    width: 100%;
+  }
+  .Deportes {
+    transition: 0.3s;
+    outline: solid 2px #650808;
+    width: 200px;
+    height: 220px;
+    margin: auto;
+  }
+  .Deportes img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .otros {
+    display: flex;
+    background-color: rgb(66, 6, 6);
+    align-items: center;
+    height: 100%;
+  }
+  .Otros {
+    transition: 0.3s;
+    outline: solid 2px #650808;
+    width: 200px;
+    height: 220px;
+    margin: auto;
+  }
+  .Otros img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+@media only screen and (min-width: 1080px) {
+  body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(0, 0, 156);
+    font-family: sans-serif;
+    user-select: none;
+    padding: 15px;
+  }
+  a {
+    width: 200px;
+    margin: auto;
+  }
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(0, 0, 0);
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    height: 100%;
+    outline: solid aqua 5px;
+    justify-content: space-between;
+  }
+  .gym {
+    transition: 0.3s;
+    outline: solid 2px #650808;
+    width: 200px;
+    height: 220px;
+    margin: auto;
+  }
+  .gym img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .b {
+    display: none;
+    user-select: none;
+    pointer-events: none;
+    position: fixed;
+    z-index: 200;
+    color: #fffcfc;
+    font-size: 40px;
+  }
+  .b2 {
+    display: none;
+    user-select: none;
+    pointer-events: none;
+    position: fixed;
+    z-index: 200;
+    color: #fffcfc;
+    font-size: 40px;
+  }
+  .b3 {
+    display: none;
+    user-select: none;
+    pointer-events: none;
+    position: fixed;
+    z-index: 200;
+    color: #fffcfc;
+    font-size: 40px;
+  }
+  .b4 {
+    display: none;
+    user-select: none;
+    pointer-events: none;
+    position: fixed;
+    z-index: 200;
+    color: #fffcfc;
+    font-size: 40px;
+  }
+  .b5 {
+    display: none;
+    user-select: none;
+    pointer-events: none;
+    position: fixed;
+    z-index: 200;
+    color: #fffcfc;
+    font-size: 40px;
+  }
+  .b6 {
+    display: none;
+    user-select: none;
+    pointer-events: none;
+    position: fixed;
+    z-index: 200;
+    color: #fffcfc;
+    font-size: 40px;
+  }
+  .b7 {
+    display: none;
+    user-select: none;
+    pointer-events: none;
+    position: fixed;
+    z-index: 200;
+    color: #fffcfc;
+    font-size: 35px;
+  }
+  .b8 {
+    display: none;
+    user-select: none;
+    pointer-events: none;
+    position: fixed;
+    z-index: 200;
+    color: #fffcfc;
+    font-size: 40px;
+  }
+  .b9 {
+    display: none;
+    user-select: none;
+    pointer-events: none;
+    position: fixed;
+    z-index: 200;
+    color: #fffcfc;
+    font-size: 40px;
+  }
+  .Dbz {
+    transition: 0.3s;
+    outline: solid 7px #650808;
+    width: 300px;
+    height: 220px;
+    font-size: 30px;
+  }
+  .Dbz img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .futbol {
+    transition: 0.3s;
+    outline: solid 7px #650808;
+    width: 300px;
+    height: 220px;
+    margin: auto;
+    font-size: 30px;
+    background-color: red;
+  }
+  h1 {
+    color: #fff;
+  }
+  .dbz {
+    display: flex;
+    background-color: rgb(162, 19, 19);
+    align-items: center;
+    height: 100%;
+
+    width: 100%;
+  }
+
+  h2,
+  h3,
+  h4 {
+    color: #fff;
+    padding-left: 20px;
+    font-size: 30px;
+  }
+  .Deporte-gym {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(95, 15, 15);
+    align-items: center;
+    height: 100%;
+    width: 100%;
+  }
+  .Deportes {
+    transition: 0.3s;
+    outline: solid 2px #650808;
+    width: 200px;
+    height: 220px;
+    margin: auto;
+  }
+  .Deportes img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .otros {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(66, 6, 6);
+    align-items: center;
+    height: 100%;
+  }
+  .Otros {
+    transition: 0.3s;
+    outline: solid 2px #650808;
+    width: 200px;
+    height: 220px;
+    margin: auto;
+  }
+  .Otros img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
