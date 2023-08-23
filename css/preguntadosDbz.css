@@ -10,7 +10,6 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-clip: border-box;
-    overflow: hidden;
     user-select: none;
   }
   .heart {
@@ -85,7 +84,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    margin: 25px auto;
+    margin: 35px auto;
     background-image: url("https://e0.pxfuel.com/wallpapers/844/532/desktop-wallpaper-background-dragon-ball-z-dbgt-scenery.jpg");
     background-attachment: fixed;
     background-repeat: no-repeat;
