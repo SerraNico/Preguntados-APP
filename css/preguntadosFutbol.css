@@ -70,7 +70,7 @@
     font-style: oblique;
     font-weight: bolder;
     text-align: center;
-    padding: 100px 30px;
+    padding: 50px 30px;
     margin-bottom: auto;
     border-radius: 70%;
     color: rgb(0, 0, 0);
@@ -85,12 +85,12 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    margin: 130px auto;
+    margin: 25px auto;
     background-image: url("https://cdn.wallpapersafari.com/17/71/0qrUbf.jpg");
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100%;
+    height: 45em;
     width: 90%;
     padding: 20px 0;
     outline: solid rgb(0, 0, 0) 10px;
@@ -183,14 +183,14 @@
     margin: 100px auto;
     color: rgb(0, 255, 234);
   }
-  .img-of-Ps-level-2 {
+  .img-of-ps-level-2 {
     display: flex;
     margin: auto;
-    width: 130px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     animation: ButtonAnimationStartTime 0.5s linear 0s 1 reverse none;
   }
-  .img-Ps {
+  .img-ps {
     width: 100%;
     height: 100%;
     margin-bottom: 20px;
@@ -217,7 +217,7 @@
     width: 730px;
   }
   .btn-level-3 {
-    margin: auto 20px 10px;
+    margin: auto auto 10px;
   }
   .h1-lvl-3 {
     font-size: 18px;
